@@ -9,6 +9,8 @@ changelogTemplate: https://github.com/PowerShell/PowerShell/blob/master/CHANGELO
 releaseDateColumn: true
 sortReleasesBy: "release"
 eolColumn: Support Status
+auto:
+  github: PowerShell/PowerShell
 releases:
   - releaseCycle: "7.1"
     cycleShortHand: 7.1

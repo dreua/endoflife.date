@@ -8,6 +8,8 @@ link: https://wiki.centos.org/About/Product
 activeSupportColumn: true
 releaseDateColumn: true
 sortReleasesBy: 'release'
+auto:
+  docker: centos
 releases:
   - releaseCycle: "CentOS 6"
     release: 2011-07-10
@@ -19,19 +21,20 @@ releases:
     release: 2014-07-07
     support: 2020-08-06
     eol: 2024-06-30
-    latest: "7 (2009)"
+    latest: "7.9.2009"
     link: https://wiki.centos.org/Manuals/ReleaseNotes/CentOS7.2009
   - releaseCycle: "CentOS Linux 8"
     release: 2019-09-24
     support: 2021-12-31
     eol: 2021-12-31
-    latest: "8 (2105)"
+    latest: "8.3.2011"
     link: https://wiki.centos.org/Manuals/ReleaseNotes/CentOS8.2105
   - releaseCycle: "CentOS Stream 8"
     release: 2019-09-24
     support: 2024-05-31
     eol: 2024-05-31
     latest: "8"
+    auto: false
     link: https://wiki.centos.org/Manuals/ReleaseNotes/CentOSStream
 ---
 

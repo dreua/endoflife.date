@@ -11,6 +11,8 @@ changelogTemplate: https://github.com/dotnet/core/blob/master/release-notes/__RE
 releaseDateColumn: true
 sortReleasesBy: "releaseCycle"
 eolColumn: Support Status
+auto:
+  github: dotnet/runtime
 releases:
   - releaseCycle: "5.0"
     lts: false

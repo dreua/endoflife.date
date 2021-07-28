@@ -14,6 +14,8 @@ activeSupportColumn: true
 command: node --version
 releaseDateColumn: true
 sortReleasesBy: 'releaseCycle'
+auto:
+  github: nodejs/node
 releases:
   - releaseCycle: "16"
     release: 2021-04-20

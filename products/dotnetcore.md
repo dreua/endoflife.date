@@ -12,6 +12,8 @@ changelogTemplate: https://github.com/dotnet/core/blob/master/release-notes/__RE
 releaseDateColumn: true
 sortReleasesBy: "releaseCycle"
 eolColumn: Support Status
+auto:
+  github: dotnet/aspnetcore
 releases:
   - releaseCycle: "3.1"
     lts: true

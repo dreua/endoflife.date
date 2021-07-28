@@ -13,6 +13,8 @@ eolColumn: Critical, Security and Platform support
 activeSupportColumn: true
 releaseDateColumn: true
 sortReleasesBy: "releaseCycle"
+auto:
+  docker: barichello/godot-ci
 releases:
   - releaseCycle: "3.3"
     release: 2021-04-22
