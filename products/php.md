@@ -11,7 +11,7 @@ releaseDateColumn: true
 sortReleasesBy: 'releaseCycle'
 auto:
   github: php/php-src
-  tagprefix: php-
+  tagPrefix: php-
 releases:
   - releaseCycle: "8.0"
     cycleShortHand: "8"
